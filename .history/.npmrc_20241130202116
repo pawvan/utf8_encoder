@@ -1,0 +1,33 @@
+# Use the public npm registry (default)
+registry=https://registry.npmjs.org/
+
+# Use a custom registry for private packages (replace with your actual registry URL)
+# registry=https://custom-registry.com/
+
+# Set the cache directory for npm
+cache=./.npm_cache
+
+# Set the directory where npm installs packages
+prefix=./.npm_modules
+
+# Enable strict-ssl to require SSL certificates to be valid
+strict-ssl=true
+
+# Automatically save installed packages in package.json under dependencies
+save=true
+
+# Specify the version of npm to use for installing packages (optional)
+# engine-strict=true
+
+# Add an authentication token for private npm packages (replace with your actual token)
+# Always protect your tokens and never commit them to version control
+//registry.npmjs.org/:_authToken=YOUR_NPM_AUTH_TOKEN
+
+# Set the default access level for scoped packages
+access=public
+
+# Disable package-lock file creation (useful in certain situations)
+package-lock=false
+
+# Use the legacy peer deps resolution algorithm (sometimes useful for resolving dependency issues)
+legacy-peer-deps=true
